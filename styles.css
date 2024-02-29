@@ -1,0 +1,109 @@
+body{ background-color: white;
+}
+    h1{ text-align:center; font-family:"Cooper Black",sans-serif;
+        text-shadow: 2px 2px 4px #000;
+        margin: 10px;/*margin ajusta el tamaño de la margen*/
+        color: black;}
+
+        h2.titulo-cursiva{ font-style:italic;text-align: center;
+        }
+
+     .fondo-vacio{
+         background-color:rgb(197, 18, 78);
+         padding: 20px;
+         margin-bottom: 5px;
+     }  
+     .titulo-2{
+         background-color: rgb(197, 18, 78);
+         padding: 20px;
+         margin-bottom: 5px;
+     }
+     /*como hacer una compra*/
+     .COMPRA{font-family:"Cooper Black", sans-serif; color: darkorchid;text-align: center;
+    }
+    .instrution-text{max-width: 100%/*ajusta el ancho maximo del texto*/;
+    font-weight: 800;
+    margin-right: 10px;}
+    
+    .color-texto{color: red;}
+    .mid-pay{text-align: center;font-family:"Cooper Black";
+            margin: 10px;
+            color: darkorchid;
+    }
+    .texto-compra{display: flex;
+        flex-direction: column; /* Establece la dirección de la columna */
+        align-items: center;
+    }
+    .imagen-derecha{width: 400px;
+        margin-bottom: 10px;/*ajusta el margen segun tus preferencias para separar la imagen del texto*/;
+     }
+     hr{border: 2px solid deeppink;
+        background-color: deeppink;
+    }
+    .transferencia-consignacion{
+        font-family:"Cooper Black", sans-serif; color:white;text-align: center;
+    
+    }
+    .contenedor-imagenes{
+        display: inline-block;
+        justify: content 10px;px;; /* Espacio entre las imágenes */
+        padding: 20px; /* Ajusta
+        lista el espacio alrededor de las imágenes según tus preferencias */
+    }
+    .img{
+        max-width: 100%;  /* Ajusta el tamaño de las imágenes según tus preferencias */
+        height:auto; /* Mantiene la proporción original de la imagen */
+      }
+      .bancolombia{
+          width: auto;text-align:right;
+          margin-top: 10px;
+      }
+    .footer {
+        background-color: #f0f0f0; /* Color de fondo del pie de página */
+        padding: 10px;
+        text-align: center;
+      }
+      .contenedor-imagenes img {
+        width: 50%; /* Ajusta el ancho de las imágenes según tus preferencias */
+        height: auto;
+    }
+    
+    .img.nequi {
+        margin-right: 10px; /* Espacio entre las imágenes */
+    }
+    /* En tu archivo styles.css */
+.contenedor-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagen-con-texto {
+    text-align: center;
+}
+
+.img.nequi {
+    width: 50%; /* Ajusta el ancho de la imagen según tus preferencias */
+    height: auto;
+}
+
+.texto-bajo-imagen {
+    margin-top: 10px; background-color: aqua; /* Espacio entre la imagen y el texto */
+}
+.catalogo{
+    text-align: center; background-color: blueviolet;
+}
+.desayuno{
+    width: 50%;
+    height: auto;
+}
+.whatsapp-contact {
+    background-color: #25D366; /* Color verde de WhatsApp */
+    color: #FFFFFF; /* Color del texto */
+    padding: 10px;
+    text-align: center;
+}
+.catalogo-principal{background-color: blueviolet;}
+    
+          
