@@ -15,20 +15,21 @@ body{ background-color: white;
          padding: 20px;
          margin-bottom: 5px;
      }  
-     .titulo-2{
+     .titulo-2{font-family:"Cooper Black",sans-serif;
          background-color: rgb(197, 18, 78);
          padding: 20px;
          margin-bottom: 5px;
      }
      /*como hacer una compra*/
-     .COMPRA{font-family:"Cooper Black", sans-serif; color: darkorchid;text-align: center;
+     .COMPRA{font-family:"Cooper Black",sans-serif;
+             color: darkorchid;text-align: center;
     }
     .instrution-text{max-width: 100%/*ajusta el ancho maximo del texto*/;
     font-weight: 800;
     margin-right: 10px;}
     
     .color-texto{color: red;}
-    .mid-pay{text-align: center;font-family:"Cooper Black";
+    .mid-pay{font-family:"Cooper Black",sans-serif;
             margin: 10px;
             color: darkorchid;
     }
@@ -93,7 +94,7 @@ body{ background-color: white;
 .texto-bajo-imagen {
     margin-top: 10px; background-color: aqua; /* Espacio entre la imagen y el texto */
 }
-.catalogo{
+.catalogo{font-family:"Cooper Black",sans-serif;
     text-align: center; background-color: blueviolet;
 }
 .desayuno{
